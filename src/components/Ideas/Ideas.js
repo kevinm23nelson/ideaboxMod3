@@ -1,5 +1,5 @@
 import './Ideas.css';
-import Card from "./Card";
+import Card from "../Card/Card";
 
 function Ideas({ ideas, deleteIdea }) {
   const ideaCards = ideas.map(idea => {
